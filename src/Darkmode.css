@@ -1,0 +1,59 @@
+/* Light Mode */
+body {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .navbar-light {
+    background-color: #f8f9fa;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #000 !important; /* Ensure the text color is black for navbar items */
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Highlight color for links in light mode */
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .navbar-dark {
+    background-color: #333;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #ddd !important; /* Ensure the text color is light for navbar items */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff !important; /* Highlight color for links in dark mode */
+  }
+  
+  .card {
+    background-color: #333;
+    color: white;
+  }
+  
+  .card-body {
+    background-color: #444;
+  }
+  
+  .card-text {
+    color: #bbb;
+  }
+  
+  .btn-outline-secondary {
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
